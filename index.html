@@ -4,20 +4,23 @@
     <title>Animal Buttons</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript"></script>
+    <script type="text/javascript" src=""></script>
     <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script type="text/javascript" src="app.js"></script>
 </head>
 
 <body>
-    <button data-animal="cat">meow</button>
-    <button data-animal="dog">woof</button>
-    <button data-animal="bird">chirp</button>
-    <div id="gifsAppearHere"></div>
+   <!--  <button data-animal="cat" class="animalz">meow</button>
+    <button data-animal="dog" class="animalz">woof</button>
+    <button data-animal="bird" class="animalz">chirp</button> -->
+    
     <div id="showGifs"></div>
+
+    <!-- New buttons here-->
+   <div id="addButton"></div>
+
     <h1>Animaltastic</h1>
     
-    <!-- New buttons here-->
-    <div id="addButton"></div>
-  
     <!-- Animal GIFS here -->
     <div id="addAnimal"></div>
     
@@ -26,7 +29,7 @@
       <input type="text" id="findAnimal" />
       <button type="submit" id="searchBtn">Animal!</button>
     </form>
-  
+    <div id="gifsAppearHere"></div>
     <div id="animalGifs"></div>
       
     
